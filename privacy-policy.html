@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raya's Book Shelf — Privacy Policy — Bridges to Sunshine LLC</title>
+<meta name="description" content="Privacy policy for Raya's Book Shelf, an app from Bridges to Sunshine LLC.">
+<link rel="icon" href="assets/raya-icon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://www.bridgestosunshine.com/privacy-policy.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="glow"></div>
+
+<header class="site">
+  <div class="wrap nav-row">
+    <a href="index.html" class="brand">
+      Bridges to Sunshine
+    </a>
+    <nav class="links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="apps.html">Apps</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <span class="eyebrow reveal">Raya's Book Shelf</span>
+      <div class="policy reveal">
+        <h1>Privacy policy</h1>
+        <p class="eff-date">Effective July 9, 2026</p>
+
+        <h2>Who this is for</h2>
+        <p>Raya's Book Shelf is a family app: a parent or guardian (the "account holder") creates the family, adds each child as a profile, and captures photos of the books their kids make or collect. Children don't sign in, don't have their own credentials, and don't provide any information directly — everything in the app is entered by the parent.</p>
+
+        <h2>What we collect</h2>
+        <ul>
+          <li>Account holder email address, used only to sign in (we send a one-time sign-in link — there are no passwords to leak).</li>
+          <li>Family and child profile names, entered by the account holder.</li>
+          <li>Photos of book pages that the account holder captures or uploads, plus the pages' reading order and light metadata (book title, page count).</li>
+          <li>Reactions (a small set of emoji) left by people the account holder has shared a book with — no account or personal information is required to leave a reaction.</li>
+          <li>We don't collect location, contacts, browsing history, or device advertising identifiers, and there are no analytics or advertising SDKs in the app.</li>
+        </ul>
+
+        <h2>How we use it</h2>
+        <ul>
+          <li>Solely to run the app: storing and displaying the family's books, generating short-lived links so an account holder can share a book, and sending sign-in emails.</li>
+          <li>We do not sell data, run ads, or use it to train any model. We do not share it with anyone outside the service providers listed below.</li>
+        </ul>
+
+        <h2>Who processes it on our behalf</h2>
+        <ul>
+          <li><strong>Supabase</strong> — database, file storage, and authentication. Photos and family data live in Supabase's infrastructure, access-controlled so one family's data isn't reachable by another.</li>
+          <li><strong>Vercel</strong> — hosts the web pages used for shared-book links (the pages friends and grandparents open).</li>
+          <li><strong>Bridges to Sunshine LLC (us)</strong> — Vercel and Supabase are the only infrastructure providers with access to this data; we don't use separate marketing, analytics, or ad-tech vendors.</li>
+          <li><strong>Sentry</strong> — crash and error reporting, configured to never receive account emails or photo contents; only technical details needed to fix a bug (e.g. which screen crashed).</li>
+          <li><strong>Expo (EAS)</strong> — builds and delivers app updates; doesn't have access to family data.</li>
+        </ul>
+
+        <h2>Sharing links</h2>
+        <p>When an account holder shares a book, we generate a link tied to a random token — not a public URL guessable from the app or the book's name. Anyone with that link can view the shared book and leave a reaction; the account holder can revoke a link at any time from the app, which immediately breaks it.</p>
+        <p>The images behind those links are served through short-lived signed URLs (they expire on their own even if never explicitly revoked).</p>
+
+        <h2>Retention and deletion</h2>
+        <p>We keep a family's data as long as the account is active. Deleting a book removes its photos from storage immediately, not just the reference to them.</p>
+        <p>To delete your account and all associated data (family, child profiles, photos, and any active share links), email <a href="mailto:bridgestosunshinellc@gmail.com">bridgestosunshinellc@gmail.com</a>. We'll confirm and complete the deletion within a few business days. An in-app deletion option is planned before public release.</p>
+
+        <h2>Children's privacy</h2>
+        <p>The parent or guardian is always the account holder and the one who consents to this policy at sign-up — children never create accounts, provide information, or interact with anything outside the app the parent set up for them.</p>
+        <p>We don't knowingly collect information directly from children, and nothing in the app enables a child to share information publicly on their own.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>If this policy changes in a way that affects how we handle your data, we'll update the effective date above and, for material changes, notify account holders by email.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy or your family's data: <a href="mailto:bridgestosunshinellc@gmail.com">bridgestosunshinellc@gmail.com</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Bridges to Sunshine LLC</h4>
+        <p>Apps and websites, built for the community. Formed 2025.</p>
+        <p>1067 S Hover St<br>Unit E779<br>Longmont, CO 80501</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="apps.html">Apps</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Raya's Book Shelf</h4>
+        <a href="apps.html#raya-book-shelf">About the app</a>
+        <a href="privacy-policy.html">Privacy policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:bridgestosunshinellc@gmail.com">bridgestosunshinellc@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Bridges to Sunshine LLC</span>
+      <span>All rights reserved</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
